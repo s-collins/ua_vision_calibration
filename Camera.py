@@ -1,6 +1,6 @@
 import cv2 as cv
 
-CAMERA_DEVICE_ID = 0
+CAMERA_DEVICE_ID = 2
 # OpenCV class VideoCapture's constructor requires integer ID of device.
 
 

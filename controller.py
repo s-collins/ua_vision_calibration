@@ -77,8 +77,8 @@ class Controller:
 		output_dict = {
 			'num_rows': grid.NumRows(),
 			'num_cols': grid.NumCols(),
-                        'row_step': self.view.GetRowSpacingEntry(),
-                        'col_step': self.view.GetColSpacingEntry(),
+                        'row_step': int(self.view.GetRowSpacingEntry()),
+                        'col_step': int(self.view.GetColSpacingEntry()),
 			'points': []
 		}
 		for i in range(grid.NumRows()):
